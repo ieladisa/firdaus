@@ -1,0 +1,42 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8e1;
+  color: #4e342e;
+}
+
+.bg-brown {
+  background-color: #4e342e;
+}
+
+.text-brown {
+  color: #4e342e;
+}
+
+.text-brown-dark {
+  color: #3e2723;
+}
+
+.bg-cream {
+  background-color: #fff8e1;
+}
+
+.bg-latte {
+  background-color: #d7ccc8;
+}
+
+.border-brown {
+  border-color: #4e342e;
+}
+
+.border-brown-light {
+  border-color: #6d4c41;
+}
+
+.text-gold {
+  color: #bfa77a;
+}
+
+.focus\:ring-gold:focus {
+  --tw-ring-color: #bfa77a;
+}

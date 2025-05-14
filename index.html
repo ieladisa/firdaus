@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kedai Kopi Rasa Rasa</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cream text-brown font-serif">
+
+  <header class="flex justify-between items-center px-8 py-6 border-b border-brown">
+    <div class="text-2xl font-bold tracking-wide">Kedai Kopi Rasa Rasa</div>
+    <nav class="space-x-6 hidden md:flex text-brown">
+      <a href="#tentang" class="hover:text-gold">Tentang Kami</a>
+      <a href="#menu" class="hover:text-gold">Menu</a>
+      <a href="#testimoni" class="hover:text-gold">Testimoni</a>
+      <a href="login.html" class="text-sm bg-brown text-white px-4 py-2 rounded-lg hover:opacity-90 transition">Login Admin</a>
+    </nav>
+  </header>
+
+  <section class="text-center px-6 py-24 bg-latte">
+    <h1 class="text-5xl font-bold leading-tight mb-6">Nikmati Secangkir Kenangan di <span class="text-brown">Rasa Rasa</span></h1>
+    <p class="text-xl text-gray-700 mb-8">Tempat terbaik untuk menyeduh kisah, rasa, dan cerita.</p>
+    <a href="#reservasi" class="bg-brown text-white px-8 py-3 rounded-xl font-medium hover:opacity-90 transition">Reservasi Sekarang</a>
+  </section>
+
+  <section id="tentang" class="py-20 bg-cream text-center px-6">
+    <h2 class="text-3xl font-semibold mb-4">Tentang Kami</h2>
+    <p class="max-w-3xl mx-auto text-lg text-brown-dark">
+      Kedai Kopi Rasa Rasa adalah tempat di mana kopi bertemu dengan kehangatan suasana dan keakraban. Setiap sajian kami diseduh dengan hati.
+    </p>
+  </section>
+
+  <section id="menu" class="py-20 text-center px-6 bg-latte">
+    <h2 class="text-3xl font-semibold mb-6">Menu Unggulan</h2>
+    <ul class="max-w-2xl mx-auto space-y-3 text-left text-brown-dark text-lg">
+      <li>☕ Espresso Single Origin</li>
+      <li>🥛 Caramel Latte</li>
+      <li>❄️ Iced Coffee Rum</li>
+      <li>🍰 Coffee Tiramisu</li>
+    </ul>
+  </section>
+
+  <section id="testimoni" class="py-20 bg-cream px-6">
+    <h2 class="text-3xl font-semibold text-center mb-10">Apa Kata Mereka</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div class="bg-white p-6 rounded-xl shadow text-left">
+        <p>"Rasa Rasa bukan sekadar kopi. Ini tempat pulang setelah hari panjang."</p>
+        <div class="mt-4 text-sm text-brown-dark">– Sari, pelanggan setia</div>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow text-left">
+        <p>"Tempat cozy, kopinya juara. Wajib coba Iced Rum-nya!"</p>
+        <div class="mt-4 text-sm text-brown-dark">– Dimas, barista</div>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow text-left">
+        <p>"Saya suka tiramisunya. Lembut dan wangi kopi banget."</p>
+        <div class="mt-4 text-sm text-brown-dark">– Rani, pencinta dessert</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reservasi" class="py-20 px-6 text-center bg-latte">
+    <div class="max-w-xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-6">Reservasi Meja</h2>
+      <form class="bg-white p-8 rounded-xl shadow space-y-4">
+        <input type="text" placeholder="Nama Lengkap" class="w-full border px-4 py-3 rounded-lg focus:ring-2 focus:ring-gold" required />
+        <input type="datetime-local" class="w-full border px-4 py-3 rounded-lg focus:ring-2 focus:ring-gold" required />
+        <textarea placeholder="Catatan (opsional)" class="w-full border px-4 py-3 rounded-lg focus:ring-2 focus:ring-gold" rows="4"></textarea>
+        <button type="submit" class="bg-brown text-white px-6 py-3 rounded-lg hover:opacity-90 transition">
+          Kirim Reservasi
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <section class="py-10 bg-brown text-white text-center">
+    <h2 class="text-xl mb-2">Lokasi Kedai</h2>
+    <p>Jl. Kenangan No. 42, Jakarta</p>
+  </section>
+
+  <footer class="text-center py-6 text-gray-500 text-sm bg-cream">
+    &copy; 2025 Kedai Kopi Rasa Rasa. Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>
